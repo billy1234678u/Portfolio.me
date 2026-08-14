@@ -1,4 +1,4 @@
-import profileImage from '../assets/profile-placeholder.svg'
+import profileImage from '../assets/Bildad Kipkirui.jpeg'
 
 export function ProfileImage() {
   return (
@@ -6,7 +6,7 @@ export function ProfileImage() {
       <div className="profile-glow" aria-hidden="true" />
       <img
         src={profileImage}
-        alt="Portrait placeholder for BillyDev"
+        alt="BillyDev profile photo"
         className="profile-image"
         loading="eager"
       />
