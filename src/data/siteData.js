@@ -14,9 +14,9 @@ export const siteData = {
     { label: 'Contact', href: '#contact' },
   ],
   socialLinks: [
-    { label: 'GitHub', href: '[INSERT GITHUB URL]', icon: 'github' },
-    { label: 'LinkedIn', href: '[INSERT LINKEDIN URL]', icon: 'linkedin' },
-    { label: 'Email', href: 'mailto:[INSERT EMAIL]', icon: 'mail' },
+    { label: 'GitHub', href: '[https://github.com/billy12345678u]', icon: 'github' },
+    { label: 'LinkedIn', href: '[https://linkedin.com/in/bildadrono]', icon: 'linkedin' },
+    { label: 'Email', href: 'mailto:[bildadrono671@gmail.com]', icon: 'mail' },
   ],
   stats: [
     { value: '12+', label: 'Projects Completed' },
