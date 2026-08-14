@@ -154,8 +154,8 @@ export const siteData = {
     },
   ],
   contactDetails: {
-    email: '[INSERT EMAIL]',
-    github: '[INSERT GITHUB URL]',
-    linkedin: '[INSERT LINKEDIN URL]',
+    email: 'bildadrono671@gmail.com / +254110417283',
+    github: 'https://github.com/billy12345678u',
+    linkedin: 'https://linkedin.com/in/bildadrono',
   },
 };

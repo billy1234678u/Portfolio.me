@@ -564,6 +564,33 @@
   align-items: start;
 }
 
+.contact-intro {
+  margin-top: 1.5rem;
+  padding: 1rem 1.1rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(96, 165, 250, 0.2);
+  background: rgba(59, 130, 246, 0.05);
+}
+
+.availability-pill {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.35rem 0.7rem;
+  background: rgba(34, 197, 94, 0.12);
+  color: #86efac;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contact-intro p {
+  margin: 0.75rem 0 0;
+  color: rgba(191, 219, 254, 0.8);
+  line-height: 1.7;
+}
+
 .contact-details {
   display: grid;
   gap: 0.7rem;

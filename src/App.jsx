@@ -281,9 +281,14 @@ function App() {
             <div className="contact-copy">
               <SectionHeader
                 eyebrow="Contact"
-                title="Have a project in mind? Let's build something great."
-                description="I’m available for web development, UI/UX design, and digital product work that needs thoughtful execution and strong presentation."
+                title="Let’s build something meaningful together."
+                description="Whether you need a new website, a landing page, or a cleaner, more effective digital experience, I’d love to hear about your project."
               />
+
+              <div className="contact-intro">
+                <span className="availability-pill">Available for freelance work</span>
+                <p>Open to web development, UI/UX design, and digital product collaboration.</p>
+              </div>
 
               <div className="contact-details">
                 <a href={`mailto:${siteData.contactDetails.email}`}>
