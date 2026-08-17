@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import {
   ArrowRight,
+  Award,
   Code2,
   Gauge,
   GitBranch,
@@ -25,6 +26,7 @@ const iconMap = {
   LayoutTemplate,
   Palette,
   Gauge,
+  Award,
   github: GitBranch,
   linkedin: Globe,
   mail: Mail,
@@ -272,6 +274,38 @@ function App() {
                   </div>
                 </article>
               ))}
+            </div>
+          </div>
+        </section>
+
+        <section id="certifications" className="section alt-section">
+          <div className="container">
+            <SectionHeader
+              eyebrow="Certifications"
+              title="Professional credentials and recognized achievements."
+              description="Industry-recognized certifications that demonstrate my commitment to continuous learning and professional development."
+            />
+
+            <div className="certifications-grid">
+              {siteData.certifications.map((cert) => {
+                const Icon = iconMap[cert.issuerIcon] || Award
+                return (
+                  <article key={cert.title} className="certification-card card">
+                    <div className="cert-icon" aria-hidden="true">
+                      <Icon size={24} />
+                    </div>
+                    <div className="cert-header">
+                      <h3>{cert.title}</h3>
+                      <p className="cert-issuer">{cert.issuer}</p>
+                      <p className="cert-date">{cert.date}</p>
+                    </div>
+                    <p className="cert-description">{cert.description}</p>
+                    <a href={cert.credentialUrl} target="_blank" rel="noreferrer" className="button secondary-button small-button">
+                      View Credential
+                    </a>
+                  </article>
+                )
+              })}
             </div>
           </div>
         </section>

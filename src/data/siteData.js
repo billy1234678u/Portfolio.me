@@ -11,6 +11,7 @@ export const siteData = {
     { label: 'Services', href: '#services' },
     { label: 'Projects', href: '#projects' },
     { label: 'Experience', href: '#experience' },
+    { label: 'Certifications', href: '#certifications' },
     { label: 'Contact', href: '#contact' },
   ],
   socialLinks: [
@@ -151,6 +152,16 @@ export const siteData = {
       title: 'Self-directed learning and creative growth',
       description:
         'Developing a strong foundation in design principles, digital communication, and modern web technologies through continuous learning.',
+    },
+  ],
+  certifications: [
+    {
+      title: 'Introduction to IoT and Digital Transformation',
+      issuer: 'Cisco',
+      date: 'June 17, 2026',
+      description: 'IoT based skills',
+      credentialUrl: 'https://www.credly.com/badges/7217b6fc-86ba-479b-89b1-2c9836702a6a/public_url',
+      issuerIcon: 'Award',
     },
   ],
   contactDetails: {
